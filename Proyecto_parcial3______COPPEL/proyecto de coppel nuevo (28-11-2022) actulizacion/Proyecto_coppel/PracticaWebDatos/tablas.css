@@ -1,0 +1,28 @@
+ /*=====tablas=====*/
+th{
+  border:  #374F6C 5px solid;
+  color: black;
+  }
+  table {
+  border: #374F6C 5px solid;
+  }
+  td {
+  border:  #374F6C 5px solid;
+  color: black;
+  }
+  h1{
+    color: black;
+  }
+   
+  dd{
+    color: blue;
+  }
+  li{
+    color: orange;
+  }
+  .negro{
+    color: black;
+  }
+  .b{
+    color: black;
+  }

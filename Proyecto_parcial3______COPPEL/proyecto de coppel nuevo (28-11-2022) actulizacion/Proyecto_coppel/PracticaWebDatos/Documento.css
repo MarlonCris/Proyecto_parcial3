@@ -1,0 +1,118 @@
+/*=====botones animados======*/
+.transformer{
+   background-color: teal;
+   width: 100px;
+   height: 30px;
+}
+.transformer:hover{
+   transform: rotate(45deg);
+   background-color: blue;
+}
+
+.transformer2{
+   background-color: teal;
+   width: 159px;
+   height: 39px;
+}
+.transformer2:hover{
+   transform: rotate(45deg);
+   background-color: blue;
+}
+
+/*=====texto animado=====*/
+@keyframes horizontal {
+from {
+  margin-left: 100%;
+  width: 300%
+}
+
+to {
+  margin-left: 0%;
+  width: 100%;
+  }
+}
+.texto_animado {
+animation-duration: 2s; animation-name: horizontal;
+font-size: 50px;
+font-style: oblique; text-align: center; font-weight: bold;
+color: #374F6C;
+}
+/*body {
+background-color: blueviolet;
+}*/
+
+ 
+/*=====otros=====*/
+.link{
+         background-color: #38BF1D;
+         padding: 10px;
+
+      }
+      .link:hover{
+         background-color: red;
+      }
+
+      .body1 { 
+         background: url('imagenes/fond_a4.jpg') no-repeat center center fixed; 
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+       }
+       .body2 { 
+         background: url('imagenes/reg.jpg') no-repeat center center fixed; 
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+       }
+       .body3 { 
+         background: url('imagenes/fond_a4.jpg') no-repeat center center fixed; 
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+       }
+       .body4 { 
+         background: url('imagenes/arco.gif') no-repeat center center fixed; 
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+       }
+       .body5 { 
+         background: url('imagenes/mad.jpg') no-repeat center center fixed; 
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+       }
+
+
+
+       .carruselcustom {
+         padding-left: 20px;
+         padding-right: 20px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+
+       }
+
+       #border{
+        border-color: black;
+        border-style: solid;
+        padding: 40px;
+       }
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
